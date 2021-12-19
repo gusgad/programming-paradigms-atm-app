@@ -1,0 +1,11 @@
+/*** is Socrates mortal? ***/
+
+// if human then mortal
+mortal(X) :- human(X).
+
+// define a relation
+human(socrates).
+
+// peform a query
+?- mortal(socrates).
+true.
